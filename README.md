@@ -1,4 +1,4 @@
-![app_wordcloud.png](https://github.com/jomaweb/AppGPS/blob/main/AppGPS_Data/app_wordcloud.png)
+[app_wordcloud.png](https://github.com/jomaweb/AppGPS/blob/main/AppGPS_Data/app_wordcloud.png)
 
 # AppGPS
 Preliminary Apps Analysis Using NLP to characterize the preliminary needs of app-users and to predict the acceptance (polarity) of app-reviews posted in Google Play Store.
