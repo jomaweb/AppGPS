@@ -15,13 +15,13 @@ Preliminary Apps Analysis Using NLP to characterize the preliminary needs of app
 ## Project Description
 This project aims to analyze **What people like and dislike about the Apps in the Google Play Store?** In this regard this project deals with the analysis of reviews from the Google Play Store that belong to the category communication. The techniques applied are:
 1. Data mining 
- * web scraping & google-play-api
+  * web scraping & google-play-api
 2. Lexical dispersion plots (LDPs)
- * Lexical dispersion is an technique to  identify “how are the use of words (lexemes) dispersed throughout the existence of a corpus.” They show the density of word usage throughout over the course of the wordcount of a speech event (for literary/linguistics scholars) or time."
+  * Lexical dispersion is an technique to  identify “how are the use of words (lexemes) dispersed throughout the existence of a corpus.” They show the density of word usage throughout over the course of the wordcount of a speech event (for literary/linguistics scholars) or time."
 3. Natural Language Processing using Python
- * Analysis of users acceptance (polarity)
- * Analysis of lexemes with wordclouds
- * training a prediction model (RandonForestClassifier) that identify if a bulk of reviews contain positive or negative acceptance of the app.
+  * Analysis of users acceptance (polarity)
+  * Analysis of lexemes with wordclouds
+  * training a prediction model (RandonForestClassifier) that identify if a bulk of reviews contain positive or negative acceptance of the app.
 
 ## Questions
 * What people like and dislike about the Apps in the Google Play Store?
@@ -36,11 +36,11 @@ This project aims to analyze **What people like and dislike about the Apps in th
 * The Data set was acquired with data mining from the website of Google Play Store from USA (*Beautifulsoup* & *google-play-api*)
 * The sample contains 45.609 reviews posted between 2013-2021 and selected as the *Most Relevant* and the *Newest*.
 * The Distribution of the reviews in the sample is:
- * score 1: 8.659 
- * score 2: 7.561
- * score 3: 14.222
- * score 4: 7.449
- * score 5: 7.718
+  * score 1: 8.659 
+  * score 2: 7.561
+  * score 3: 14.222
+  * score 4: 7.449
+  * score 5: 7.718
  
 This data was intentional downloaded in this unbalanced relation. The aim was to achieve a *feature engineering* to define a target that contains three main values for ranking the reviews according to the following proportion:
 
