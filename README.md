@@ -1,6 +1,6 @@
 
 # AppGPS
-Preliminary Apps Analysis Using NLP to characterize the preliminary needs of app-users and to predict the acceptance (polarity) of app-reviews posted in Google Play Store.
+Preliminary Sentimental Analysis of Apps Reviews Using NLP. 
 
 ![app_wordcloud.png](https://github.com/jomaweb/AppGPS/blob/main/AppGPS_Data/app_wordcloud.png)
 
@@ -15,6 +15,9 @@ Preliminary Apps Analysis Using NLP to characterize the preliminary needs of app
 
 
 ## Project Description
+There is a related relation between the fact that user do not like an app and the chance to uninstall it. This statement can be analyzed in the app reviews from the Google Play Store. However, in order to keep track of the same discussion, we consider the reviews from the 50 most popular apps (March 3rd, 2021) in the category communication, sorted as the Most Relevant and Newest.
+
+
 This project aims to analyze **What people like and dislike about the Apps in the Google Play Store?** In this regard this project deals with the analysis of reviews from the Google Play Store that belong to the category communication. The techniques applied are:
 1. Data mining 
   * web scraping & google-play-api
@@ -31,8 +34,9 @@ This project aims to analyze **What people like and dislike about the Apps in th
 * To what extent the analysis of user reviews is accurate to identify requirements, opinions and their acceptance of the apps?
 
 ## Goals
-1. Train a model to predict user acceptance of the apps
-2. Visualize common words, Requirements and opinions to characterize the needs of apps-users
+1. Predict the acceptance (polarity) of apps regarding the reviews posted in Google Play Store.
+2. Characterize the preliminary needs, requirements and opinions of app-users regarding the prominent words in the apps reviews.
+3. Train a model to predict user acceptance of the apps.
 
 ## Dataset
 * The Data set was acquired with data mining from the website of Google Play Store from USA (*Beautifulsoup* & *google-play-api*)
@@ -66,7 +70,7 @@ The model trained was a *RandonForestClassifier* an it was tested throughout a *
 
 
 ## Resources
-In this repository you can find the file of the final presentation, the data files (.csv), and the *jupyter notebooks* related to *web scraping* and *model training*. For the *jupyter notebook* with the *data cleaning* and *data visualizations*, please fell free to contact me via LinkedIn.  
+In this repository you can find the file of the final presentation, the data files (.csv), and the *jupyter notebooks* related to *web scraping*, *data cleaning*, *EDA & visualization* and *model training*. 
 [Repository](https://github.com/jomaweb/Data_Excercises_IH/tree/main/AppGPS_Word_Analysis)<br>
 [LinkedIn](https://www.linkedin.com/in/jose-ma/)
 
