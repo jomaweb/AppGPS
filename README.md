@@ -15,10 +15,9 @@ Preliminary Sentimental Analysis of Apps Reviews Using NLP.
 
 
 ## Project Description
-There is a related relation between the fact that user do not like an app and the chance to uninstall it. This statement can be analyzed in the app reviews from the Google Play Store. However, in order to keep track of the same discussion, we consider the reviews from the 50 most popular apps (March 3rd, 2021) in the category communication, sorted as the Most Relevant and Newest.
+There is a link between the possibility of uninstalling an app and the fact that users do not receive the expected performance of an app or do not understand how it works. A sentimental analysis of app review can be used to determine users' opinions about apps' performance, improvements, and shortcomings, as well as their acceptance (like or dislike). This project presents an approximation to identify needs, requirements, and opinions of app user, as well as a characterization of the community supporting the apps. This project will download (data mine) app reviews from Google Play. However, in order to keep track of the same conversation, we will concentrate on the feedback from the 50 most popular communication apps as of March 3rd, 2021, sorted by Most Relevant and Newest. This project aims to analyze **What people like and dislike about the Apps in the Google Play Store?**
 
-
-This project aims to analyze **What people like and dislike about the Apps in the Google Play Store?** In this regard this project deals with the analysis of reviews from the Google Play Store that belong to the category communication. The techniques applied are:
+The techniques applied are:
 1. Data mining 
   * web scraping & google-play-api
 2. Lexical dispersion plots (LDPs)
@@ -31,7 +30,7 @@ This project aims to analyze **What people like and dislike about the Apps in th
 ## Questions
 * What people like and dislike about the Apps in the Google Play Store?
 
-* To what extent the analysis of user reviews is accurate to identify requirements, opinions and their acceptance of the apps?
+* How reliable is the sentimental analysis of user reviews in identifying criteria, opinions, and acceptance of apps?
 
 ## Goals
 1. Predict the acceptance (polarity) of apps regarding the reviews posted in Google Play Store.
